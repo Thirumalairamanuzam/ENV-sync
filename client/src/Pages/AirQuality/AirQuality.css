@@ -1,0 +1,148 @@
+body{
+  font-family: sans-serif;
+}
+
+.aqi-box-container{
+  background-color: #f0f2f5;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  padding: 10px;
+  gap: 50px;
+  height: 70vh;
+  padding-top: 110px;
+}
+.aqi-container{
+  box-shadow: 0px 3px 4px 2px rgba(0,0,0,0.15);
+  background: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 16px;
+}
+.aqi-topic > h3{
+  font-weight: bold;
+  color: #696969;
+  text-align: center;
+  font-size: 20px;
+  transform: translate(0 ,50px);
+}
+.current-aqi{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 240px;
+  color: yellow;
+  text-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.15);
+}
+.graph-container{
+  background-color: orange;
+  border-radius: 16px;
+  padding: 20px;
+}
+.city-name{
+  font-size: 45px;
+  color: teal;
+}
+.city-input{
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 40px;
+  width: 620px;
+  height: 45px;
+  border-radius: 8px ;
+
+}
+::placeholder{
+  padding: 10px;
+  font-size: 18px;
+}
+.city-input > input :focus::placeholder{
+  color: transparent;
+}
+.city-input:focus{
+  outline: none;
+}
+
+.prediction-box-container{
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  padding: 12px;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+
+.prediction-input-container{
+  border-radius: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+.prediction-input-container > h2{
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.predictive-input-table{
+  font-size: 30px;
+  column-gap: 100px;
+}
+.prediction-output-container{
+  display: flex;  
+  border-radius: 16px;
+}
+.predicted-aqi{
+  background-color:#C7B090;
+  border-radius: 16px;
+  padding: 15px;
+  margin: auto;
+  height: fit-content;
+}
+.predicted-aqi-announcer{
+  font-weight: bold;
+  color: #696969;
+  text-align: center;
+  font-size: 20px;
+  transform: translate(0, 120%);
+}
+.aqi-number{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 120px;
+  color: yellow;
+  text-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.15);
+}
+.predictive-input-table td {
+  padding: 15px 50px; 
+}
+.predict-button{
+  background-color: green;
+  height: 50px;
+  width: 120px;
+  border-radius: 16px;
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 270px;
+}
+.predict-button:hover{
+  background-color: rgb(5, 183, 5);
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
